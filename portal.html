@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister G – Game Portal</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/shared-portal-styles.css">
+    <link rel="stylesheet" href="styles/portal-specific.css">
+</head>
+<body>
+    <!-- Tab Navigation -->
+    <nav class="tab-navigation">
+        <a href="portal.html" class="tab-link active">All Games</a>
+        <a href="LS_portal.html" class="tab-link">Lost Soldier</a>
+    </nav>
+
+    <img src="fuchs-logo.png" alt="Mister G" class="studio-logo">
+
+    <div class="container">
+        <header>
+            <h1 class="main-title">Mister G – Game Portal</h1>
+            <p class="tagline">Experimentelle Narrativ-Spiele und interaktive Geschichten</p>
+        </header>
+
+        <section class="game-section">
+            <div class="game-grid">
+                <!-- LS: Stillness -->
+                <a href="./LS_Stillness/stillness.html" class="game-card">
+                    <img src="LS_Stillness/assets/images/cabin_out.jpg" alt="LS: Stillness" class="game-preview">
+                    <div class="game-content">
+                        <h2 class="game-title">LS: Stillness</h2>
+                    </div>
+                </a>
+
+                <!-- LS: Dead Air -->
+                <a href="#" class="game-card">
+                    <div style="position: relative;">
+                        <img src="LS_DeadAir/assets/images/Leitstelle.jpg" alt="LS: Dead Air" class="game-preview">
+                        <div class="restricted-badge">KEINE FREIGABE</div>
+                    </div>
+                    <div class="game-content">
+                        <h2 class="game-title">LS: Dead Air</h2>
+                    </div>
+                </a>
+
+                <!-- Cube Runner -->
+                <a href="./runners/index.html" class="game-card">
+                    <img src="runners/Logo2.png" alt="Cube Runner" class="game-preview">
+                    <div class="game-content">
+                        <h2 class="game-title">Cube Runner</h2>
+                    </div>
+                </a>
+
+                <!-- Placeholder Cards -->
+                <a href="#" class="game-card">
+                    <div class="preview-placeholder">
+                        <span class="placeholder-icon">🎮</span>
+                    </div>
+                    <div class="game-content">
+                        <h2 class="game-title">In Produktion</h2>
+                    </div>
+                </a>
+
+                <a href="#" class="game-card">
+                    <div class="preview-placeholder">
+                        <span class="placeholder-icon">🎮</span>
+                    </div>
+                    <div class="game-content">
+                        <h2 class="game-title">In Planung</h2>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <nav class="footer-nav">
+            <div class="nav-links">
+                <a href="https://misterg-blip.github.io/support" class="nav-link">Support</a>
+                <a href="https://misterg-blip.github.io/" class="nav-link">Home</a>
+            </div>
+            <footer>© 2026 MISTER G</footer>
+        </nav>
+    </div>
+</body>
+</html>
